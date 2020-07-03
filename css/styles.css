@@ -1,0 +1,26 @@
+/* стили веб-студия */
+/* шрифты: Raleway bold,Roboto bold,medium,regular,black */
+/* main font-Roboto bold ,
+secondary font Roboto regular ,third font Roboto,
+Roboto medium*/
+/* main color #ffffff ,
+bcgcolor #F5F4FA
+footer color #2F303A
+accent color #2196F3 */
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.list-nav-item-webstudio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  color: #000000;
+}
+.list-nav-item-webstudio span {
+  color: #2196f3;
+}
+.list-nav-item-webstudio:focus {
+}

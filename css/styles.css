@@ -3,21 +3,34 @@
 /* main font-Roboto bold ,
 secondary font Roboto regular ,third font Roboto,
 Roboto medium*/
-/* main color #ffffff ,
-bcgcolor #F5F4FA
-footer color #2F303A
-accent color #2196F3 */
+/* bcg-color #ffffff 
+bcg-icon-color #F5F4FA
+footer-color #2F303A
+accent-color #2196F3 
+main-title-font-color #212121
+secondary-title-font-color #fffff--f
+text-color #757575*/
+:root { 
+--bcg-icon-color #F5F4FA;
+--accent-color #2196F3; 
+--main-title-font-color #212121;
+--secondary-title-font-color #ffffff;
+--text-color #757575;
+}
 body {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
   background-color: #ffffff;
 }
 .list-nav-item-webstudio {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  color: #000000;
+ ;
 }
 .list-nav-item-webstudio span {
   color: #2196f3;

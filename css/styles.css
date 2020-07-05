@@ -1,4 +1,3 @@
-/* стили веб-студия */
 /* шрифты: Raleway bold,Roboto bold,medium,regular,black */
 /* main font-Roboto bold ,
 secondary font Roboto regular ,third font Roboto,
@@ -10,6 +9,7 @@ accent-color #2196F3
 main-title-font-color #212121
 secondary-title-font-color #fffff--f
 text-color #757575*/
+/* стили веб-студия */
 :root {
   --bcg-icon-color: #f5f4fa;
   --accent-color: #2196f3;
@@ -17,6 +17,7 @@ text-color #757575*/
   --secondary-title-font-color: #ffffff;
   --text-color: #757575;
   --main-font: "Roboto", sans-serif;
+  --secondary-font: "Roboto" .sans-serif;
 }
 body {
   font-family: roboto;
@@ -80,9 +81,6 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--secondary-title-font-color);
-}
-.btn-service:focus {
   color: var(--secondary-title-font-color);
 }
 /* about us */
@@ -189,4 +187,40 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-title-font-color);
+}
+/* стилизация страницы портфолио */
+.filter-list-btns-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.filter-list-btns-item:hover,
+.filter-list-btns-item:focus {
+  color: var(--secondary-title-font-color);
+}
+.techno {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-font-color);
+}
+.title-techno {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-font-color);
+}
+.category {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }

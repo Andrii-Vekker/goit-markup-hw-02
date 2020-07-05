@@ -10,30 +10,183 @@ accent-color #2196F3
 main-title-font-color #212121
 secondary-title-font-color #fffff--f
 text-color #757575*/
-:root { 
---bcg-icon-color #F5F4FA;
---accent-color #2196F3; 
---main-title-font-color #212121;
---secondary-title-font-color #ffffff;
---text-color #757575;
+:root {
+  --bcg-icon-color: #f5f4fa;
+  --accent-color: #2196f3;
+  --main-title-font-color: #212121;
+  --secondary-title-font-color: #ffffff;
+  --text-color: #757575;
+  --main-font: "Roboto", sans-serif;
 }
 body {
-  font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-  background-color #ffffff;
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
+  color: var(--main-title-font-color);
 }
+/* shapka */
 .list-nav-item-webstudio {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
- ;
+  font-weight: 700;
+  color: var(--main-title-font-color);
 }
 .list-nav-item-webstudio span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
-.list-nav-item-webstudio:focus {
+.list-nav a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-title-font-color);
+}
+.list-nav a:hover,
+.list-nav a:focus {
+  color: var(--accent-color);
+}
+.list-adress-item-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.list-adress-item-link:hover,
+.list-adress-item-link:focus {
+  color: var(--accent-color);
+}
+/* hero */
+.hero {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-font-color);
+}
+.btn-service {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-font-color);
+}
+.btn-service:focus {
+  color: var(--secondary-title-font-color);
+}
+/* about us */
+.about-us-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--main-title-font-color);
+}
+.list-about-us p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* what we do */
+.what-we-do-main-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-font-color);
+}
+.what-we-do-secondary-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-font-color);
+}
+/* our team */
+.our-team-main-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-font-color);
+}
+.our-team-secondary-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-font-color);
+}
+.our-team p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* regular customers */
+.regular-customers {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-font-color);
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+.location {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-font-color);
+}
+/* join-in */
+.join-in {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-font-color);
+}
+.subscribe {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-font-color);
 }

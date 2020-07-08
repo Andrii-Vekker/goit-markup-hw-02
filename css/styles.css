@@ -22,8 +22,7 @@ text-color #757575*/
 body {
   font-family: roboto;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  font-size: 14px;
   letter-spacing: 0.03em;
   background-color: #ffffff;
   color: var(--main-title-font-color);
@@ -37,13 +36,13 @@ a {
   text-decoration: inherit;
 }
 /* shapka */
-.list-nav-item-webstudio {
+.logo {
   font-family: Raleway;
-  font-style: normal;
+  font-style: inherit;
   font-weight: 700;
   color: var(--main-title-font-color);
 }
-.list-nav-item-webstudio span {
+.logo span {
   color: var(--accent-color);
 }
 .list-nav a {
@@ -58,6 +57,7 @@ a {
 .list-nav a:focus {
   color: var(--accent-color);
 }
+/* contacts */
 .list-adress-item-link {
   font-style: normal;
   font-weight: 500;
@@ -96,6 +96,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--main-title-font-color);
+  text-transform: uppercase;
 }
 .list-about-us p {
   font-style: normal;
@@ -110,7 +111,7 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-title-font-color);
 }
@@ -219,7 +220,7 @@ a {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
